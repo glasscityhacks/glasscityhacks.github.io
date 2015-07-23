@@ -1,0 +1,26 @@
+{
+  "name": "glass-city-hacks-website",
+  "version": "1.0.0",
+  "description": "The launch website for Glass City Hacks.",
+  "main": "public/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glasscityhacks/website.git"
+  },
+  "keywords": [
+    "hackathon",
+    "toledo",
+    "glass",
+    "city",
+    "hacking"
+  ],
+  "author": "Glass City Hacks",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-includes": "^0.5.1",
+    "grunt-sass": "^1.0.0"
+  }
+}

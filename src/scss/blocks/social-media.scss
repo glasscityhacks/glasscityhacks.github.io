@@ -1,0 +1,20 @@
+.social-media {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	font-size: 2rem;
+}
+.social-media > li {
+	margin-right: 2rem;
+}
+
+.hero .social-media {
+	-webkit-justify-content: center;
+	justify-content: center;
+	margin-top: 3rem;
+	font-size: 3rem;
+}

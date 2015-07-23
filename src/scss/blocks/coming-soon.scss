@@ -1,0 +1,17 @@
+.coming-soon {
+	min-height: 100vh;
+	background: #f6f6f6;
+	margin: 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	color: #fff;
+	background: url("../img/content/tma-orange-bg.jpg") no-repeat center center;
+	background-size: cover;
+}
+.coming-soon > * {
+	margin: 0;
+}

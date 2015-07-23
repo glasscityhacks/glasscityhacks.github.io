@@ -1,0 +1,25 @@
+.main-footer {
+	background: url("../img/content/tma-orange-bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 8rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 0 2rem;
+	color: #fff;
+}
+.main-footer a {
+	color: #fff;
+	text-decoration: none;
+}
+.main-footer a:hover {
+	opacity: .5;
+}
+.main-footer .questions {
+	margin: 0;
+	text-align: right;
+	line-height: 1.4
+}

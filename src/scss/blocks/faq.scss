@@ -1,0 +1,17 @@
+.faq {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.faq > .faq-item {
+
+}
+.faq > .faq-item > .faq-question {
+	font-weight: bold;
+	font-size: 1.8rem;
+	color: #f15b22;
+	line-height: 1.4;
+}
+.faq > .faq-item > .faq-answer {
+	font-size: 1.5rem;
+}

@@ -1,0 +1,24 @@
+.postponed {
+	min-height: 100vh;
+	background: #f6f6f6;
+	margin: 0;
+	padding: 3rem;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	color: #fff;
+	background: url("../img/content/orange-bg.png") no-repeat center center;
+	background-size: cover;
+}
+.postponed > .content {
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+	max-width: 50rem;
+}
+.postponed a {
+	color: #fff;
+	text-decoration: underline;
+}

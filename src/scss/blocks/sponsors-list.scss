@@ -1,0 +1,35 @@
+.sponsors-list {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sponsors-list > .sponsor {
+	margin: 3rem 5rem;
+}
+.sponsors-list > .sponsor > a > img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .2s ease-in-out;
+	transition:         .2s ease-in-out;
+}
+.sponsors-list > .sponsor > a:hover > img {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.sponsors-list > .sponsor.petrichor {
+	width: 20rem;
+}
+.sponsors-list > .sponsor.tma {
+	width: 10rem;
+}
+.sponsors-list > .sponsor.launchpad {
+	width: 25rem;
+}

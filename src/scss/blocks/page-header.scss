@@ -1,0 +1,29 @@
+.page-header {
+	height: 40rem;
+	background: url("../img/content/tma-orange-bg.jpg") no-repeat center center;
+	background-size: cover;
+	padding-top: 20rem;
+}
+.page-header h1 {
+	position: relative;
+	margin-bottom: 3rem;
+	font-size: 3.4rem;
+	color: #fff;
+	line-height: 1.1;
+	text-align: center;
+}
+@media ( min-width : 700px ) {
+	.page-header  h1 {
+		font-size: 5rem;
+	}
+}
+.page-header h1:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: calc(100% + 3rem);
+	left: calc(50% - 7.5rem);
+	height: .5rem;
+	width: 15rem;
+	background: #fff;
+}

@@ -1,0 +1,66 @@
+.venue {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+	padding: 0;
+	list-style: none;
+}
+.venue > li {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+	min-height: 40rem;
+	color: #fff;
+	padding: 2rem;
+}
+
+.venue > li .content {
+	max-width: 40rem;
+}
+.venue > li .content > .title {
+	font-size: 4rem;
+	font-weight: 300;
+}
+.venue > li .content > .description {
+	margin: 0;
+}
+.venue > li .content > .tma-logo {
+	max-width: 8rem;
+	margin-bottom: 2rem;
+}
+
+
+.venue > li.museum {
+	width: 100%;
+	background: background url("../img/content/venue-museum.jpg") center center no-repeat;
+	background-size: cover;
+}
+.venue > li.glass-pavilion {
+	width: 100%;
+	background: background url("../img/content/venue-glass-pavilion.jpg") center center no-repeat;
+	background-size: cover;
+}
+.venue > li.peristyle {
+	width: 100%;
+	background: background url("../img/content/venue-peristyle.jpg") center center no-repeat;
+	background-size: cover;
+}
+.venue > li.cloister {
+	width: 100%;
+	background: background url("../img/content/venue-cloister.jpg") center center no-repeat;
+	background-size: cover;
+}
+@media ( min-width : 700px ) {
+	.venue > li.glass-pavilion {
+		width: 33.3333333%;
+	}
+	.venue > li.peristyle {
+		width: 33.3333333%;
+	}
+	.venue > li.cloister {
+		width: 33.3333333%;
+	}
+}

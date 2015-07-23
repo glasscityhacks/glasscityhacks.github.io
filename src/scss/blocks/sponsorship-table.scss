@@ -1,0 +1,43 @@
+.sponsorship-table {
+	border-collapse: collapse;
+}
+
+.sponsorship-table > caption {
+	background: #d31d5f;
+	padding: .5rem 1rem;
+	text-align: center;
+	font-size: 4rem;
+	color: white;
+	text-align: center;
+}
+
+.sponsorship-table > thead > tr > th {
+	background: #d31d5f;
+	padding: .5rem 1rem;
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+
+.sponsorship-table > tbody > tr > th {
+	background: #ef4b31;
+	padding: .5rem 1rem;
+	color: white;
+
+}
+.sponsorship-table > tbody > tr > td {
+	background: #4a3e41;
+	padding: .5rem 1rem;
+	border-bottom: solid 2px #53474a;
+	color: white;
+	text-align: center;
+}
+
+.sponsorship-table > tbody > tr.heading > th {
+	background: #313131;
+	border: none;
+	padding: .5rem 2rem;
+	color: #ffffff;
+	font-size: 2rem;
+}

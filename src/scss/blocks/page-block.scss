@@ -1,0 +1,62 @@
+.page-block {
+	padding: 5rem 1rem 0 1rem;
+	margin-bottom: 5rem;
+}
+
+.page-block > .leader {
+	margin: 0 auto;
+	max-width: 90rem;
+	font-size: 1.8rem;
+	line-height: 1.85;
+	text-align: center;
+}
+@media ( min-width : 700px ) {
+	.page-block > .leader {
+
+		font-size: 2rem;
+
+	}
+}
+
+.page-block > .page-block-header {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+.page-block > .page-block-header > h1,
+.page-block > .page-block-header > h2,
+.page-block > .page-block-header > h3,
+.page-block > .page-block-header > h4,
+.page-block > .page-block-header > h5,
+.page-block > .page-block-header > h6 {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 3rem;
+	font-size: 3.4rem;
+	color: #aaa;
+	line-height: 1.1;
+}
+@media ( min-width : 700px ) {
+	.page-block > .page-block-header > h1,
+	.page-block > .page-block-header > h2,
+	.page-block > .page-block-header > h3,
+	.page-block > .page-block-header > h4,
+	.page-block > .page-block-header > h5,
+	.page-block > .page-block-header > h6 {
+		font-size: 5rem;
+	}
+}
+.page-block > .page-block-header > h1:before,
+.page-block > .page-block-header > h2:before,
+.page-block > .page-block-header > h3:before,
+.page-block > .page-block-header > h4:before,
+.page-block > .page-block-header > h5:before,
+.page-block > .page-block-header > h6:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: calc(100% + 3rem);
+	left: calc(50% - 7.5rem);
+	height: .5rem;
+	width: 15rem;
+	background: #f15b22;
+}

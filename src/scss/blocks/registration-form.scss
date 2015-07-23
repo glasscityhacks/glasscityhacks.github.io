@@ -1,0 +1,118 @@
+.registration-form {
+	max-width: 70rem;
+	margin: 0 auto;
+}
+.registration-form .registration-form-field {
+	position: relative;
+	padding: 3rem 0 2px 0;
+	margin-bottom: 4rem;
+}
+.registration-form h2 {
+	color: #ff3e00;
+	margin-bottom: 4rem;
+	padding-top: 2rem;
+}
+
+.registration-form .registration-form-field > label {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.3);
+	border-bottom: 3px solid rgba(0,0,0,.1);
+	pointer-events: none;
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+.registration-form .registration-form-field > label > .optional {
+	color: rgba(0,0,0,.2);
+}
+.registration-form .registration-form-field > label > .required {
+	color: rgb(217, 19, 23);
+}
+.registration-form .registration-form-field > input[type="text"],
+.registration-form .registration-form-field > input[type="password"],
+.registration-form .registration-form-field > input[type="email"],
+.registration-form .registration-form-field > input[type="url"],
+.registration-form .registration-form-field > input[type="date"],
+.registration-form .registration-form-field > input[type="month"],
+.registration-form .registration-form-field > input[type="time"],
+.registration-form .registration-form-field > input[type="datetime"],
+.registration-form .registration-form-field > input[type="datetime-local"],
+.registration-form .registration-form-field > input[type="week"],
+.registration-form .registration-form-field > input[type="number"],
+.registration-form .registration-form-field > input[type="search"],
+.registration-form .registration-form-field > input[type="tel"],
+.registration-form .registration-form-field > input[type="color"],
+.registration-form .registration-form-field > select,
+.registration-form .registration-form-field > textarea {
+	background-color: rgba(0,0,0,.025);
+	border: none;
+	border-radius: 0;
+	padding: 1rem;
+	height: 5rem;
+	font-size: 1.6rem;
+}
+.registration-form .registration-form-field > input[type="file"] {
+	padding: 1.5rem;
+	height: 5rem;
+	background-color: rgba(0,0,0,.025);
+	width: 100%;
+	outline: none;
+}
+.registration-form .registration-form-field > textarea {
+	height: auto;
+	transition: none;
+}
+
+.registration-form .registration-form-field > input[type="text"]:focus + label,
+.registration-form .registration-form-field > input[type="file"]:focus + label,
+.registration-form .registration-form-field > input[type="password"]:focus + label,
+.registration-form .registration-form-field > input[type="email"]:focus + label,
+.registration-form .registration-form-field > input[type="url"]:focus + label,
+.registration-form .registration-form-field > input[type="date"]:focus + label,
+.registration-form .registration-form-field > input[type="month"]:focus + label,
+.registration-form .registration-form-field > input[type="time"]:focus + label,
+.registration-form .registration-form-field > input[type="datetime"]:focus + label,
+.registration-form .registration-form-field > input[type="datetime-local"]:focus + label,
+.registration-form .registration-form-field > input[type="week"]:focus + label,
+.registration-form .registration-form-field > input[type="number"]:focus + label,
+.registration-form .registration-form-field > input[type="search"]:focus + label,
+.registration-form .registration-form-field > input[type="tel"]:focus + label,
+.registration-form .registration-form-field > input[type="color"]:focus + label,
+.registration-form .registration-form-field > select:focus + label,
+.registration-form .registration-form-field > textarea:focus + label {
+	border-bottom-color: #ff3e00;
+	color: #ff3e00
+}
+
+.registration-form .registration-form-submit {
+
+}
+.registration-form .registration-form-submit {
+	display: block;
+	width: 100%;
+	border: 2px solid #ff3e00;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ff3e00;
+	-webkit-transition: .2s linear;
+	transition: .2s linear;
+	outline: 0;
+	line-height: 1.5;
+	background: none;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.6rem;
+	padding: 2rem 4rem;
+}
+
+.registration-form .registration-form-submit:hover {
+	text-decoration: none;
+	opacity: 1;
+	color: #fff;
+	background: #ff3e00;
+}

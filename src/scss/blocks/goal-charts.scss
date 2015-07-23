@@ -1,0 +1,13 @@
+.goal-charts {
+	padding: 0 5%;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.goal-charts > li:last-child {
+	margin-right: 0;
+}
+.goal-charts > li > img {
+	margin-top: -10%;
+	margin-bottom: -10%
+}

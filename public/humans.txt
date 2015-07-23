@@ -1,0 +1,76 @@
+/**
+*
+* http://humanstxt.org
+*
+* An initiative to know the creators of the  website.
+*
+*/
+
+/**
+*
+* TEAM
+*
+*/
+
+Designer/Developer: Dan Paquette
+Twitter: @danpaquette
+
+Designer/Developer: Zach Strauss
+Twitter: @Z_Strauss
+
+Developer: Jake Warner
+Twitter: @jakewarner
+
+Developer: Alex Mattoni
+Twitter: @alexmattoni
+
+
+Company: Petrichor
+Company URI: http://petrichor.io
+Company Twitter: @petrichorllc
+
+/**
+*
+* THANKS
+*
+*/
+
+Aaron Hassell: Hackathon Volunteer, Avatar
+Connor Kress: Hackathon Volunteer, Hephaestus/ByrdMR
+Molly Thompson: Hackathon Volunteer, Launchpad Incubation
+Christopher Macino: Hackathon Volunteer, Launchpad Incubation
+Jeff Beamsley: Hackathon Volunteer, Savage Consulting
+Bob Savage: Hackathon Volunteer, Savage Consulting
+Betsy Ujvagi: Hackathon Volunteer, Savage Consulting
+Don Miller: Hackathon Volunteer, Seed Coworking/Groundspeed/Coursera
+Gene Powell: Hackathon Volunteer, Seed Coworking/Spoke
+Adam Levine: Hackathon Volunteer, Toledo Museum of Art
+Anne Bennett: Hackathon Volunteer, Toledo Museum of Art
+Scott Boberg: Hackathon Volunteer, Toledo Museum of Art
+Josh Hardman: Hackathon Volunteer, Toledo Museum of Art
+Dave Urbank: Hackathon Volunteer, Toledo Museum of Art
+Amanda Scasny: Hackathon Volunteer, Toledo Museum of Art
+Maricarmen Westmark: Hackathon Volunteer, Toledo Museum of Art
+Stephanie Elton: Hackathon Volunteer, Toledo Museum of Art
+Nate Sloan: Hackathon Volunteer, Toledo Museum of Art
+Todd Ahrens: Hackathon Volunteer, Toledo Museum of Art
+Mike Graybeal: Hackathon Volunteer, Toledo Museum of Art
+Paul Bernard: Hackathon Volunteer, Toledo Museum of Art
+Keith Instone: Hackathon Volunteer
+Stuart Bertsch: Hackathon Volunteer
+Mary-Lynne Zatko: Hackathon Volunteer
+Tyler Golias: Hackathon Volunteer, ACM
+Zac Collins: Hackathon Volunteer, Petrichor, ACM
+Eduardo Rodriguez Macrillante: Hackathon Volunteer, ACM
+Aaron Birney: Hackathon Volunteer
+
+/**
+*
+* SITE
+*
+*/
+
+Last Update:
+Standards:  HTML5, CSS3, PSR1-4
+Components: Limestone Frontend Framework, Limestone Boilerplate, Lavastone PHP Framework, jQuery
+Software: Adobe Illustrator, Adobe Photoshop, PHPStorm, Git, Gitlab

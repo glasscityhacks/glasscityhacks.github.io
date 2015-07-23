@@ -1,0 +1,147 @@
+include "../global/meta.html"
+include "../global/header.html"
+
+<div class="page-header">
+	<div class="container">
+		<h1>Register for Glass City Hacks</h1>
+	</div>
+</div>
+<main>
+	<section class="page-block">
+		<p class="leader">
+			Register for Toledo's first hackathon open to anyone over the age of 18. Once your registration
+			is accepted, we'll contact you with additional details, event guidelines, and instructions.
+		</p>
+		<br />
+		<form class="registration-form" method="post" enctype="multipart/form-data">
+			<h2>Basic Information</h2>
+			<div data-scaffold="tile-lg-2 tile-xl-2">
+				<p class="registration-form-field">
+					<input type="text" name="first-name" id="first-name" />
+					<label for="first-name">
+						First Name <span class="required">*</span>
+					</label>
+				</p>
+				<p class="registration-form-field">
+					<input type="text" name="last-name" id="last-name" />
+					<label for="last-name">
+						Last Name <span class="required">*</span>
+					</label>
+				</p>
+			</div>
+			<p class="registration-form-field">
+				<input type="email" name="email" id="email" />
+				<label for="email">
+					Email <span class="required">*</span>
+				</label>
+			</p>
+			<div data-scaffold="tile-lg-2 tile-xl-2">
+				<p class="registration-form-field">
+					<input type="date" name="birthday" id="birthday" />
+					<label for="birthday">
+						Birthday <span class="required">*</span>
+					</label>
+				</p>
+				<p class="registration-form-field">
+					<select name="gender" id="gender">
+						<option>Select a gender...</option>
+						<option>Male</option>
+						<option>Female</option>
+						<option>Trans*</option>
+						<option>Other</option>
+						<option>Prefer not to disclose</option>
+					</select>
+					<label for="gender">
+						Gender <span class="required">*</span>
+					</label>
+				</p>
+			</div>
+			<h2>Background</h2>
+			<p class="registration-form-field">
+				<select name="skill-category" id="skill-category">
+					<option>Developer</option>
+					<option>Designer</option>
+					<option>Engineer</option>
+					<option>Artist</option>
+					<option>Other</option>
+				</select>
+				<label for="skill-category">
+					Skill Category <span class="required">*</span>
+				</label>
+			</p>
+			<p class="registration-form-field">
+				<input type="file" name="resume" id="resume" required />
+				<label for="resume">
+					Resume <span class="required">*</span>
+				</label>
+			</p>
+			<div data-scaffold="tile-lg-2 tile-xl-2">
+				<p class="registration-form-field">
+					<input type="text" name="university" id="university" />
+					<label for="university">
+						University <span class="optional">(If Applicable)</span>
+					</label>
+				</p>
+				<p class="registration-form-field">
+					<input type="text" name="major" id="major" />
+					<label for="major">
+						Major <span class="optional">(If Applicable)</span>
+					</label>
+				</p>
+			</div>
+			<p class="registration-form-field">
+				<input type="url" name="website" id="website" />
+				<label for="website">
+					Website
+				</label>
+			</p>
+			<p class="registration-form-field">
+				<input type="url" name="github" id="github" />
+				<label for="github">
+					Github URL <span class="optional">(If Developer)</span>
+				</label>
+			</p>
+			<p class="registration-form-field">
+				<input type="url" name="portfolio" id="portfolio" />
+				<label for="portfolio">
+					Dribbble / Behance / Portfolio URL <span class="optional">(If Designer)</span>
+				</label>
+			</p>
+			<p class="registration-form-field">
+				<textarea name="something-interesting" id="something-interesting" required></textarea>
+				<label for="something-interesting">
+					Tell us something interesting about yourself <span class="required">*</span>
+				</label>
+			</p>
+			<h2>Logistics</h2>
+			<div data-scaffold="tile-lg-2 tile-xl-2">
+				<p class="registration-form-field">
+					<select name="dietary-restrictions" id="dietary-restrictions" required>
+						<option>None</option>
+						<option>Gluten Intolerance</option>
+						<option>Lactose Intolerance </option>
+						<option>Vegetarian</option>
+					</select>
+					<label for="dietary-restrictions">
+						Dietary Restrictions <span class="required">*</span>
+					</label>
+				</p>
+				<p class="registration-form-field">
+					<select name="shirt-size" id="shirt-size">
+						<option>XS</option>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+						<option>XL</option>
+					</select>
+					<label for="shirt-size">
+						T-Shirt Size <span class="required">*</span>
+					</label>
+				</p>
+			</div>
+			<button type="submit" name="registration-submit" class="registration-form-submit"><i class="fa fa-send"></i> Submit Registration</button>
+		</form>
+	</section>
+</main>
+
+include "../global/footer.html"
