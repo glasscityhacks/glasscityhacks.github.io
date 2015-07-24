@@ -11,7 +11,9 @@
 .social-media > li {
 	margin-right: 2rem;
 }
-
+.social-media > li > a {
+	text-decoration: none;
+}
 .hero .social-media {
 	-webkit-justify-content: center;
 	justify-content: center;
