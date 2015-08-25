@@ -14,16 +14,16 @@ module.exports = function(grunt) {
 			},
 			portal: {
 				files: {
-					'public/css/glasscityhacks.min.css' : 'src/scss/init.scss'
+					'resources/css/glasscityhacks.min.css' : 'src/scss/init.scss'
 				}
 			}
 		},
 		clean: {
 			css: [
-				'public/css'
+				'resources/css'
 			],
 			js: [
-				'public/js'
+				'resources/js'
 			]
 		},
 		uglify: {
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
 			},
 			js: {
 				files: {
-					'public/js/glasscityhacks.min.js': [
+					'resources/js/glasscityhacks.min.js': [
 						'src/lib/jquery/jquery-2.1.4.min.js',
 						'src/lib/scrollspy/jquery.scrollspy.js',
 						'src/lib/scrollto/jquery.scrollTo.min.js',
@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 			views: {
 				cwd: 'src/views',
 				src: ['**/*.html', '!global/*.html' ],
-				dest: 'public',
+				dest: '',
 				flatten: true
 			}
 		}
